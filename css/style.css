@@ -39,6 +39,11 @@ body {
     margin-right: auto;
 }
 
+.surface-logo-text {
+    width: 133px;
+    height: 36px;
+}
+
 .header-title {
     font-size: 28px;
     letter-spacing: 1px;
