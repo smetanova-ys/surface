@@ -67,7 +67,6 @@ body {
 .header-title-two {
     display: block;
     padding-left: 59px;
-    padding-right: 37px;
     line-height: 27px;
 }
 
@@ -379,6 +378,75 @@ p {
 
 .footer-surface-logo {
     margin-top: 78px;
+}
+
+@media (min-width: 641px) {
+    .downloadings-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+    .surface-logo {
+        width: 204px;
+    }
+
+    .surface-logo-text {
+        width: 204px;
+        height: 60px;
+    }
+
+    .header-title {
+        width: 640px;
+        font-size: 64px;
+        letter-spacing: 3px;
+        margin-top: 165px;
+        margin-bottom: 300px;
+    }
+
+    .header-title-one {
+        margin-bottom: 0;
+    }
+
+    .header-title-two {
+        padding-left: 117px;
+        line-height: normal;
+    }
+
+    .downloadings-list {
+        width: 654px;
+        padding-bottom: 86px;
+    }
+
+    .downloading-link {
+        width: 307px;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .logo-app {
+        width: 37px;
+        height: 42px;
+        top: 16px;
+        left: 41px;
+    }
+
+    .logo-google-play {
+        width: 41px;
+        height: 45px;
+        top: 16px;
+        left: 55px;
+    }
+
+    .app-store-link {
+        padding: 19px 60px 19px 103px;
+    }
+
+    .google-play-link {
+        padding: 19px 79px 19px 120px;
+    }
 }
 
 @font-face {
