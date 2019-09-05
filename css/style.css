@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: OpenSans, Arial, sans-serif;
+    min-width: 320px;
 }
 
 .header {
@@ -45,6 +46,9 @@ body {
 }
 
 .header-title {
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 28px;
     letter-spacing: 1px;
     color: #ffffff;
@@ -68,9 +72,6 @@ body {
 }
 
 .downloadings-list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
     margin-left: auto;
     margin-right: auto;
 }
@@ -102,7 +103,7 @@ body {
     font-weight: 700;
 }
 
-.downloading-item:first-child {
+.app-store-link {
     margin-bottom: 14px;
 }
 
@@ -111,13 +112,21 @@ body {
 }
 
 .logo-app {
+    width: 20px;
+    height: 23px;
     left: 81px;
     top: 4px;
 }
 
 .logo-google-play {
+    width: 22px;
+    height: 23px;
     left: 81px;
     top: 6px;
+}
+
+p {
+    margin: 0;
 }
 
 .main-content-item {
@@ -156,6 +165,8 @@ body {
 }
 
 .section-number {
+    display: inline-block;
+    vertical-align: top;
     font-size: 14px;
     color: #000000;
     font-weight: 700;
@@ -174,6 +185,8 @@ body {
 }
 
 .section-number-other {
+    display: inline-block;
+    vertical-align: top;
     font-size: 14px;
     color: #000000;
     font-weight: 700;
@@ -192,11 +205,11 @@ body {
 }
 
 .recommendation {
+    display: inline-block;
     font-size: 23px;
     color: #c1c1c1;
     font-weight: 700;
     text-transform: uppercase;
-    display: inline-block;
     margin: 0;
 }
 
@@ -206,6 +219,7 @@ body {
     line-height: 18px;
     color: #000000;
     font-weight: 400;
+    margin-top: 20px;
 }
 
 .text-other {
@@ -261,6 +275,7 @@ body {
     line-height: 20px;
     color: #000000;
     font-weight: 400;
+    margin-top: 20px;
 }
 
 .recommendation-appeal-item {
