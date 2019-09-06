@@ -153,6 +153,7 @@ p {
     box-sizing: border-box;
     padding-left: 20px;
     padding-bottom: 50px;
+    padding-right: 15px;
 }
 
 .section-recommendation:nth-of-type(n+2) {
@@ -254,7 +255,9 @@ p {
 }
 
 .appeal-article-content {
+    box-sizing: border-box;
     padding-top: 30px;
+    padding-right: 15px;
     padding-left: 20px;
     padding-bottom: 60px;
 }
@@ -386,34 +389,6 @@ p {
         flex-wrap: wrap;
         justify-content: space-between;
     }
-}
-
-@media (min-width: 641px) and (max-width: 960px) {
-    .surface-logo {
-        width: 204px;
-    }
-
-    .surface-logo-text {
-        width: 204px;
-        height: 60px;
-    }
-
-    .header-title {
-        width: 640px;
-        font-size: 64px;
-        letter-spacing: 3px;
-        margin-top: 165px;
-        margin-bottom: 300px;
-    }
-
-    .header-title-one {
-        margin-bottom: 0;
-    }
-
-    .header-title-two {
-        padding-left: 117px;
-        line-height: normal;
-    }
 
     .downloadings-list {
         width: 654px;
@@ -446,6 +421,34 @@ p {
 
     .google-play-link {
         padding: 19px 79px 19px 120px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+    .surface-logo {
+        width: 204px;
+    }
+
+    .surface-logo-text {
+        width: 204px;
+        height: 60px;
+    }
+
+    .header-title {
+        width: 640px;
+        font-size: 64px;
+        letter-spacing: 3px;
+        margin-top: 165px;
+        margin-bottom: 300px;
+    }
+
+    .header-title-one {
+        margin-bottom: 0;
+    }
+
+    .header-title-two {
+        padding-left: 117px;
+        line-height: normal;
     }
 
     .section-title {
@@ -527,7 +530,7 @@ p {
     .basketballer::before {
         content: url(../images/basketballer_436.png);
         top: 45px;
-        left: 335px;
+        left: 355px;
     }
 
     .number-square-element {
@@ -545,6 +548,114 @@ p {
         border-radius: 2px;
     }
 
+    .appeal-recommendation {
+        font-size: 80px;
+    }
+
+    .appeal-text {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+
+    .appeal-article-content {
+        width: 100%;
+        padding-top: 40px;
+        padding-right: 2.6%;
+        padding-bottom: 90px;
+        padding-left: 4%;
+    }
+
+    .section-title, .section-recommendation-left {
+        padding-left: 4%;
+    }
+
+    .logo {
+        width: 104px;
+        height: 86px;
+        padding: 24px 14px;
+        border-radius: 30px;
+        margin-top: 24px;
+    }
+
+    .call-download {
+        font-size: 80px;
+        letter-spacing: 4px;
+    }
+
+    .call-show {
+        font-size: 36px;
+        color: #a496ca;
+        letter-spacing: normal;
+    }
+
+    .footer-call {
+        margin-top: 70px;
+        margin-bottom: 277px;
+    }
+
+    .downloadings-list {
+        padding: 0;
+    }
+
+    .footer-surface-logo {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1270px) {
+    .header-title {
+        width: 90%;
+        font-size: 64px;
+        letter-spacing: 3px;
+    }
+
+    .header-title-one {
+        margin-bottom: 0;
+    }
+
+    .header-title-two {
+        padding-left: 12%;
+        line-height: normal;
+    }
+}
+
+@media (min-width: 1271px) {
+
+    .header-title {
+        width: 80%;
+        font-size: 90px;
+        letter-spacing: 5px;
+    }
+
+    .header-title-two {
+        padding-left: 23%;
+        line-height: 100px;
+    }
+}
+
+@media (min-width: 961px) {
+    .header {
+        background-image: url(../images/football_1280.jpg);
+    }
+
+    .surface-logo {
+        width: 190px;
+    }
+    .surface-logo-text {
+        width: 190px;
+        height: 53px;
+    }
+
+    .header-title {
+        margin-top: 266px;
+        margin-bottom: 202px;
+    }
+
+    .downloadings-list {
+        width: 672px;
+        padding-bottom: 23px;
+    }
 }
 
 @font-face {
