@@ -317,7 +317,7 @@ p {
 }
 
 .footer {
-   background-image: url(/images/game_767.jpg);
+   background-image: url(../images/game_767.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
