@@ -663,11 +663,11 @@ p {
 
     .section-title {
         font-size: 80px;
+        padding-top: 55px;
     }
 
     .section-title-right {
         padding-left: 50%;
-        padding-top: 55px;
     }
 
     .section-recommendation {
