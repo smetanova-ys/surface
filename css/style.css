@@ -422,6 +422,14 @@ p {
     .google-play-link {
         padding: 19px 79px 19px 120px;
     }
+
+    .section-title {
+        width: 100%;
+    }
+
+    .section-recommendation {
+        width: 100%;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
@@ -452,7 +460,6 @@ p {
     }
 
     .section-title {
-        width: 100%;
         font-size: 80px;
         padding-top: 34px;
     }
@@ -466,7 +473,6 @@ p {
     }
 
     .section-recommendation {
-        width: 100%;
         padding-top: 35px;
         padding-bottom: 35px;
     }
@@ -474,8 +480,6 @@ p {
     .section-recommendation-right {
         padding-left: 38%;
         padding-right: 2.6%;
-        padding-top: 35px;
-        padding-bottom: 35px;
     }
 
     .section-recommendation:first-of-type {
@@ -566,7 +570,7 @@ p {
         padding-left: 4%;
     }
 
-    .section-title, .section-recommendation-left {
+    .section-title-left, .section-recommendation-left {
         padding-left: 4%;
     }
 
@@ -655,6 +659,83 @@ p {
     .downloadings-list {
         width: 672px;
         padding-bottom: 23px;
+    }
+
+    .section-title {
+        font-size: 80px;
+    }
+
+    .section-title-right {
+        padding-left: 50%;
+        padding-top: 55px;
+    }
+
+    .section-recommendation {
+        padding-bottom: 50px;
+        padding-right: 12%;
+    }
+
+    .section-recommendation:first-of-type {
+        padding-top: 50px;
+        margin-top: 14px;
+    }
+
+    .section-recommendation:nth-of-type(n+2) {
+        scroll-padding-top: 50px;
+    }
+
+    .section-recommendation-right {
+        padding-left: 50%;
+    }
+
+    .recommendation {
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+
+    .section-number {
+        font-size: 18px;
+    }
+
+    .section-number::after {
+        width: 19px;
+        height: 5px;
+        top: 22px;
+        left: 0;
+        border-radius: 2px;
+    }
+
+    .section-number-other {
+        font-size: 18px;
+        color: #0a0e34;
+    }
+
+    .section-number-other::after {
+        width: 19px;
+        height: 5px;
+        top: 22px;
+        left: 0;
+        border-radius: 2px;
+    }
+
+    .content-text {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 28px;
+    }
+
+    .footballer::before {
+        content: url(../images/footballer_566.png);
+        top: 25px;
+        right: 60%;
+    }
+
+    
+}
+
+@media (min-width: 1900px) {
+    .header {
+        background-image: url(../images/football_1920.jpg);
     }
 }
 
