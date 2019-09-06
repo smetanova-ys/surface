@@ -727,8 +727,9 @@ p {
     .footballer::before {
         content: url(../images/footballer_566.png);
         top: 25px;
-        right: 60%;
+        left: calc(50% - 605px);
     }
+
 
     
 }
