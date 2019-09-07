@@ -445,6 +445,25 @@ p {
         height: 5px;
         border-radius: 2px;
     }
+
+    .logo {
+        width: 104px;
+        height: 86px;
+        padding: 24px 14px;
+        border-radius: 30px;
+        margin-top: 24px;
+    }
+
+    .call-download {
+        font-size: 80px;
+        letter-spacing: 4px;
+    }
+
+    .call-show {
+        font-size: 36px;
+        color: #a496ca;
+        letter-spacing: normal;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
@@ -580,17 +599,6 @@ p {
         padding: 24px 14px;
         border-radius: 30px;
         margin-top: 24px;
-    }
-
-    .call-download {
-        font-size: 80px;
-        letter-spacing: 4px;
-    }
-
-    .call-show {
-        font-size: 36px;
-        color: #a496ca;
-        letter-spacing: normal;
     }
 
     .footer-call {
@@ -768,6 +776,39 @@ p {
         line-height: 28px;
     }
 
+    .footer {
+        background-image: url(../images/game_1280.jpg);
+    }
+
+    .logo-and-call {
+        display: flex;
+        flex-wrap: wrap;
+        width: 880px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        padding-top: 120px;
+        margin-bottom: 147px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .footer-call {
+        margin-left: 30px;
+    }
+
+    .footer-call {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .footer-surface-logo {
+        margin-top: 260px;
+        margin-bottom: 49px;
+    }
+
 }
 
 @media (min-width: 1900px) {
@@ -789,8 +830,8 @@ p {
 
     .appeal-article-content {
         width: 50%;
-        padding-top: 240px;
-        padding-bottom: 210px;
+        padding-top: 225px;
+        padding-bottom: 200px;
         padding-left: 6%;
         padding-right: 11%;
     }
@@ -817,6 +858,10 @@ p {
     .number-square::before {
         top: 100px;
         left: 70px;
+    }
+
+    .footer {
+        background-image: url(../images/game_1920.jpg);
     }
 }
 
