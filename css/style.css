@@ -430,6 +430,21 @@ p {
     .section-recommendation {
         width: 100%;
     }
+
+    .number-square-element {
+        font-size: 24px;
+        padding: 44px;
+        left: 33px;
+        bottom: -35px;
+    }
+
+    .number-square::before {
+        top: 77px;
+        left: 44px;
+        width: 25px;
+        height: 5px;
+        border-radius: 2px;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
@@ -535,21 +550,6 @@ p {
         content: url(../images/basketballer_436.png);
         top: 45px;
         left: 355px;
-    }
-
-    .number-square-element {
-        font-size: 24px;
-        padding: 44px;
-        left: 33px;
-        bottom: -35px;
-    }
-
-    .number-square::before {
-        top: 77px;
-        left: 44px;
-        width: 25px;
-        height: 5px;
-        border-radius: 2px;
     }
 
     .appeal-recommendation {
@@ -664,6 +664,7 @@ p {
     .section-title {
         font-size: 80px;
         padding-top: 55px;
+        padding-left: 10%;
     }
 
     .section-title-right {
@@ -678,10 +679,6 @@ p {
     .section-recommendation:first-of-type {
         padding-top: 50px;
         margin-top: 14px;
-    }
-
-    .section-recommendation:nth-of-type(n+2) {
-        scroll-padding-top: 50px;
     }
 
     .section-recommendation-right {
@@ -730,13 +727,96 @@ p {
         left: calc(50% - 605px);
     }
 
+    .section-recommendation-left {
+        padding-left: 10%;
+        padding-right: 52%;
+    }
 
-    
+    .other-three {
+        color: #9173e6;
+    }
+
+    .basketballer::before {
+        content: url(../images/basketballer_991.png);
+        top: 10px;
+        left: calc(50% - 130px);
+    }
+
+    .article-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .appeal-article-content {
+        padding-top: 50px;
+        padding-left: 10%;
+        padding-right: 12%;
+    }
+
+    .number-square-element {
+        left: 10%;
+    }
+
+    .appeal-recommendation {
+        font-size: 80px;
+        color: #c1c1c1;
+        letter-spacing: normal;
+    }
+
+    .appeal-text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
 }
 
 @media (min-width: 1900px) {
     .header {
         background-image: url(../images/football_1920.jpg);
+    }
+
+    .recommendation-appeal-item {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .article-picture-with-square {
+        width: 50%;
+    }
+
+    .appeal-article-content {
+        width: 50%;
+        padding-top: 240px;
+        padding-bottom: 210px;
+        padding-left: 6%;
+        padding-right: 11%;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+    .appeal-text {
+        margin-top: 105px;
+    }
+
+    .number-square-element {
+        padding: 70px;
+        width: 168px;
+        left: 91%;
+        bottom: 360px;
+    }
+
+    .reverse-element {
+        left: -9%;
+    }
+
+    .number-square::before {
+        top: 100px;
+        left: 70px;
     }
 }
 
