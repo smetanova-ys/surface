@@ -785,12 +785,12 @@ p {
     }
 
     .number-square-element {
-        left: 89%;
+        left: calc(100% - 57.5px);
         bottom: 250px;
     }
 
     .reverse-element {
-        left: -11%;
+        left: -57.5px;
     }
 
     .footer {
@@ -842,12 +842,12 @@ p {
     .number-square-element {
         padding: 70px;
         width: 168px;
-        left: 91%;
+        left: calc(100% - 84px);
         bottom: 360px;
     }
 
     .reverse-element {
-        left: -9%;
+        left: -84px;
     }
 
     .number-square::before {
