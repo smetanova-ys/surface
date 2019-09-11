@@ -59,10 +59,6 @@ body {
     margin-top: 129px;
 }
 
-.header-title-one {
-    display: block;
-}
-
 .header-title-two {
     display: block;
     padding-left: 45px;
@@ -141,7 +137,7 @@ p {
     position: absolute;
     content: url(../images/footballer_192.png);
     top: 90px;
-    left: 70px;
+    left: calc(50% - 96px);
 }
 
 .section-title {
@@ -179,11 +175,12 @@ p {
 
 .section-number::after {
     content: "";
+    display: block;
     background-color: #5e42b0;
     position: absolute;
     top: 17px;
     left: 1px;
-    width: 15px;
+    width: 100%;
     height: 4px;
     border-radius: 1px;
 }
@@ -199,11 +196,12 @@ p {
 
 .section-number-other::after {
     content: "";
+    display: block;
     background-color: #ffffff;
     position: absolute;
     top: 17px;
     left: 1px;
-    width: 15px;
+    width: 100%;
     height: 4px;
     border-radius: 1px;
 }
@@ -255,7 +253,7 @@ p {
     content: url(../images/basketballer_302.png);
     position: absolute;
     top: 100px;
-    left: 5px;
+    left: calc(50% - 151px);
 }
 
 .appeal-article-content {
@@ -402,8 +400,14 @@ p {
     .downloadings-list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        width: 654px;
+    }
+
+    .downloadings-list {
+        justify-content: center;
+    }
+
+    .downloading-link:nth-child(n+2) {
+        margin-left: 30px;
     }
 
     .downloading-link {
@@ -496,9 +500,12 @@ p {
         line-height: normal;
     }
 
+    .main-content-item {
+        padding-top: 54px;
+    }
+
     .section-title {
         font-size: 80px;
-        padding-top: 34px;
     }
 
     .section-title-right {
@@ -547,7 +554,6 @@ p {
     }
 
     .section-number::after, .section-number-other::after {
-        width: 21px;
         height: 5px;
         border-radius: 2px;
         top: 25px;
@@ -659,13 +665,16 @@ p {
         margin-bottom: 202px;
     }
 
-    .downloadings-list {
-        width: 672px;
+    .downloading-link:nth-child(n+2) {
+        margin-left: 50px;
+    }
+
+    .main-content-item {
+        padding-top: 74px;
     }
 
     .section-title {
         font-size: 80px;
-        padding-top: 55px;
         padding-left: 10%;
     }
 
@@ -697,7 +706,6 @@ p {
     }
 
     .section-number::after {
-        width: 19px;
         height: 5px;
         top: 22px;
         left: 0;
@@ -710,7 +718,6 @@ p {
     }
 
     .section-number-other::after {
-        width: 19px;
         height: 5px;
         top: 22px;
         left: 0;
@@ -765,6 +772,7 @@ p {
         width: 50%;
         padding-left: 6%;
         padding-right: 3%;
+        padding-top: 60px;
     }
 
     .reverse {
